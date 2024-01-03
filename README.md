@@ -25,3 +25,29 @@ Gender Classification most imbalanced and complex due to 3 classes.​
 | Human: 19​       | Male: 18​  | Yes: 6​      | Yes: 2​  | Yes: 7​ | Yes 17​       |
 | Non-Human: 13​   | Female: 1​ | No: 26​      | No: 30​  | No: 25​ | No 15​        |
 | ​                | Other: 13​ | ​            | ​        | ​       | ​             |
+
+
+### MANSOONET- CNN FROM SCRATCH​
+
+Preprocessing: Image Augmentation & train/validation/test​
+
+Model structure: 4 Convolutional Layers -> Flatten -> 8 Dense Layers -> Output Layer (3 class labels)​
+
+ Total ~47 million trainable parameters​
+
+| Non-trainable parameters​ |
+| ------------------------- |
+| Input size​               | (224, 224, 3)​ |
+| Filters​                  | 72 -> 144 -> 216 -> 360​ |
+| Filter size​              | (11,11) -> (7,7) -> (5,5) -> (3,3)​ |
+| Activation​               | ReLU​ |
+| Pooling​                  | Max Pooling​
+
+(3,3) & (2,2)​ |
+| ​                         |
+
+#### Full Architecture
+
+<-- image goes here -->
+
+
